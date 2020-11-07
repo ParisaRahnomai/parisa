@@ -1,0 +1,455 @@
+@font-face {
+    font-family: yekan;
+    src: url('../fonts/BYekan.eot?#') format('eot'), /* IE6–8 */
+    url('../fonts/BYekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/BYekan.ttf') format('truetype'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+    font-family: mit;
+    src: url('../fonts/BMitra.eot ?#') format('eot'),
+    url('../fonts/BMitra.woff') format('woff'),
+    url('../fonts/BMitra.ttf') format('truetype');
+}
+@font-face {
+    font-family: roya;
+    src: url('../fonts/BRoya.eot ?#') format('eot'),
+    url('../fonts/BRoya.woff') format('woff'),
+    url('../fonts/BRoya.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    color: #333333;
+    font-family: yekan;
+    }
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-custom{
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.6);
+}
+.navbar-custom .nav li>a{
+    color: #333333;
+    font-family: yekan;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.navbar-custom .nav li>a:hover{
+    color: #ffffff;
+    background-color: #ff5959;
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 770px){
+    .navbar-custom .nav li>a{
+        padding: 20px;
+    }
+    .navbar-custom .nav li>a:hover{
+        padding: 20px;
+    }
+}
+.navbar-collapse{
+    max-height: 340px;
+}
+.navbar-toggle .icon-bar{
+    background: #000000;
+}
+a.navbar-brand,a.navbar-brand:hover{
+    padding-top: 18px !important;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+a.navbar-brand span,a.navbar-brand:hover span{
+    color: #ff5959;
+}
+
+/*--- id top -----------------------------------------------------*/
+.hero-section{
+    min-height: 800px;
+    margin-top: 60px;
+    background: url("../images/indexjadid/hero-bg.jpg") no-repeat;
+    background-size:cover;
+}
+.slider-caption{
+    position: absolute;
+    left:0;
+    top:50%;
+    text-align: center;
+    transform: translate(0% , -50%);
+    width: 100%;
+    z-index: 15;
+}
+.slider-caption h1{
+    font-family: yekan;
+    font-size: 72px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.slider-caption h5{
+    font-family: yekan;
+    color: #3f3f3f;
+    font-size: 18px;
+    font-weight: 400;
+    }
+.slider-caption span{
+    color: #ff5959;
+}
+@media screen and (max-width: 480px){
+    .slider-caption h1{
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+/*-------- service --------------------------------------------*/
+#service{
+    min-height: 700px;
+    background-color: #1f1f1f;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+#service h2.section-title,#service p.sub-title{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+.single-service{
+    margin-top: 28px;
+}
+.single-service .media{
+    border: 2px solid #ededed;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 30px 40px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.single-service .media:hover{
+    background-color: #ff5959;
+    color: #fff;
+}
+.single-service .media-left i{
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 20px;
+    margin-left: 5px;
+    border: 1px solid #ff5959;
+    background-color: #ff5959;
+    border-radius: 50%;
+}
+.single-service .media:hover i{
+    background-color: #ffffff;
+    color: #ff5959;
+    }
+.single-service .media:hover p , .single-service .media:hover h3{
+    color: #ffffff;
+}
+h3.media-heading{
+    font-size: 18px;
+    font-weight: 700;
+}
+@media screen and (max-width: 480px){
+    .single-service .media{
+        padding: 10px;
+    }
+    .single-service .media-left i{
+        font-size: 15px;
+        padding: 5px;
+    }
+}
+/*-------pack tala -------------------------------------------------*/
+#packtala{
+    min-height:700px;
+    background-color: #edf1f4;
+    background: url("../images/indexjadid/banner-home.jpg") no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-size: 18px;
+}
+#packtala h1{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#packtala .packbox2 p{
+    margin-top: 50px;
+}
+#packtala .packbox .inner{
+    border-top: 2px solid #fff;
+    margin-top: 110px;
+    color: #fff;
+    line-height: 24px;
+}
+#packtala .packbox i{
+    font-family: FontAwesome;
+    font-size: 50px;
+    margin: 20px 0;
+    color: #d4c70d;
+    }
+#packtala .btn1{
+    width: 150px;
+    background-color: #c1b839;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    }
+#packtala .btn1:hover{
+    background-color: #d4c70d;
+    transition:background-color 0.4s;
+}
+
+/*----- pic effect -----------------------------------------------------*/
+.section {
+    min-height: 650px;
+    margin-bottom: 40px;
+    padding: 30px 0 0 0;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.section-white {
+    background: #FFF;
+}
+.section-dark {
+    background: #151515;
+}
+.section-dark h3 {
+    color:#FFF;
+    font-size:18px;
+    font-weight:200;
+}
+.section .container:first-child h1,
+.section .container:first-child h2,
+.section .container:first-child h3 {
+    margin-top: 0;
+    font-weight: 700;
+}
+
+
+/* Section Title */
+.section-title h1{
+    font-size:48px;
+    text-transform:uppercase;
+    font-weight:700;
+    margin-bottom:50px;
+    padding-top: 30px;
+
+}
+
+.section-title h1:before{
+    display:block;
+    float:left;
+}
+
+@media(max-width:767px) {
+    .section{
+        margin-bottom: 0px;
+    }
+    .section-title h1{
+        font-size:32px;
+        text-transform:uppercase;
+        font-weight:700;
+    }
+}
+/* Portfolio Grid and Hover Effects */
+
+.grid {
+    padding: 20px 20px 100px 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+    list-style: none;
+    text-align: left;
+}
+
+.grid figure {
+    margin: 0;
+    position: relative;
+    margin-top:20px;
+}
+
+.grid figure img {
+    max-width: 100%;
+    display: block;
+    position: relative;
+}
+
+.grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: #000;
+    color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+    font-size:18px;
+    text-transform:uppercase;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.grid figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 0;
+    display: inline-block;
+    background: #ed4e6e;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.cs-style-3 figure {
+    overflow: hidden;
+}
+
+.cs-style-3 figure img {
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.no-touch .cs-style-3 figure:hover img,
+.cs-style-3 figure.cs-hover img {
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    transform: translateY(-50px);
+}
+
+.cs-style-3 figcaption {
+    height: 80px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .cs-style-3 figure:hover figcaption,
+.cs-style-3 figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+.cs-style-3 figcaption a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Caption Style 2 */
+.cs-style-2 figure img {
+    z-index: 10;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.no-touch .cs-style-2 figure:hover img,
+.cs-style-2 figure.cs-hover img {
+    -webkit-transform: translateY(-90px);
+    -moz-transform: translateY(-90px);
+    -ms-transform: translateY(-90px);
+    transform: translateY(-90px);
+}
+
+.cs-style-2 figcaption {
+    height: 90px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+}
+
+.cs-style-2 figcaption a {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+@media screen and (max-width: 480px) {
+    .grid figcaption h3 {
+        font-size:13px;
+    }
+    .grid figcaption a {
+        padding: 2px;
+        font-size: 11px;
+    }
+}
+
+
+/*----------- footer ------------------------------------*/
+footer{
+    min-height: 300px;
+    background-color: #1F1F1F;
+    padding-bottom: 30px;
+}
+footer .message{
+    border-bottom:1px solid #666;
+    max-width: 100%;
+    text-align: center;
+}
+footer .message p{
+    color: #FFFFFF;
+    margin-top: 10px;
+    font-size: 14px;
+}
+footer li a,a:hover{
+    color: #F2F2F2;
+    font-size: 13px;
+    font-family: yekan;
+    text-decoration: none;
+}
+footer li{
+    margin-bottom: 10px;
+}
+footer hr{
+    border: 1px solid #ffffff;
+}
+footer h3{
+    color: #FFFFFF;
+    font-family: yekan;
+    font-size: 16px;
+}
+footer .row{
+    padding: 0;
+    margin: 0;
+}
+
+footer .botfoo{
+    border-top:1px solid #666666 ;
+    margin-top: 30px;
+}
+footer .botfoo2{
+    margin-top: 10px;
+}
